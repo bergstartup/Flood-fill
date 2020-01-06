@@ -10,7 +10,6 @@ An algorithm to solve maze
 <img src="maze00.jpg">
 <br>
 <br>
-<br>
 <h2>Solution:</h2>
 <br>
 First, lets interpret the maze image. Given is a 3 channel image, walls and boundries are black and free spaces are white. Since, image is a 3d matrix of numbers lets normalize it to 1d matrix for easy processing.
