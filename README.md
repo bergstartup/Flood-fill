@@ -29,5 +29,13 @@ The algorithm proceed in the following way,<br>
 <br>
 
 Once I filled the above maze it look like this,<br>
+<img src="filled_maze.jpg"/>
+<br><br>
 
+<b>Tracing the path</b>
+<br>
+Once, The matrix is filled the path can be traced by starting from the intial cell and moving to adjacent cell(Without wall inbetween) which has smallest value.
+<br>
+So, for above maze<br>
+<img src="solved.jpg"/>
 
