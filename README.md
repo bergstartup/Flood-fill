@@ -9,11 +9,25 @@ An algorithm to solve maze
 <br>
 <img src="maze00.jpg">
 <br>
-<br>
 <h2>Solution:</h2>
 <br>
 First, lets interpret the maze image. Given is a 3 channel image, walls and boundries are black and free spaces are white. Since, image is a 3d matrix of numbers lets normalize it to 1d matrix for easy processing.
 <br><br>
 <b>Image normalization:</b>
 <br>
---To be continued--
+Image is converted into single channel, where walls hold 0s and free spaces as 1
+<br><br>
+<b>Flood fill</b>
+<br>
+<i>Flood the matrix</i>
+The algorithm proceed in the following way,<br>
+1.Initialize marker variable value to 0<br>
+2.Fill marker value to end cell and increment marker value<br>
+3.Fill adjacent cell without wall inbetween with marker value<br>
+4.Increment marker value<br>
+5.Repeat step 3 and 4 till every cell in the matrix is filled.<br>
+<br>
+
+Once I filled the above maze it look like this,<br>
+
+
