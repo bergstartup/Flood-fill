@@ -11,7 +11,7 @@ An algorithm to solve maze
 <br>
 <h2>Solution:</h2>
 <br>
-First, lets interpret the maze image. Given is a 3 channel image, walls and boundries are black and free spaces are white. Since, image is a 3d matrix of numbers lets normalize it to 1d matrix for easy processing.
+First, lets interpret the maze image. Given is a 3 channel image, walls and boundries are black and free spaces are white. Since the image is a 3d matrix of numbers lets normalize it to 1d matrix for easy processing.
 <br><br>
 <b>Image normalization:</b>
 <br>
